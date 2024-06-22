@@ -2,10 +2,13 @@
   "name": "lash_supply",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://surbhigulhana.github.io/Exchange",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+     "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "author": "",
   "license": "ISC",
